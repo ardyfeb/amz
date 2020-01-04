@@ -1,0 +1,23 @@
+{
+   "compilerOptions": {
+     "module": "commonjs",
+     "declaration": true,
+     "removeComments": true,
+     "emitDecoratorMetadata": true,
+     "experimentalDecorators": true,
+     "target": "es6",
+     "sourceMap": true,
+     "outDir": "./dist",
+     "baseUrl": "./src",
+     "incremental": true,
+     "resolveJsonModule": true,
+     "esModuleInterop": true,
+     "paths": {
+         "@constant": ["constant/*"],
+         "@command/*": ["command/*"],
+         "@service/*": ["service/*"],
+         "@util/*": ["util/*"]
+     }
+   },
+   "exclude": ["node_modules", "dist"]
+}
